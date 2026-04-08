@@ -1,26 +1,26 @@
 @import "tailwindcss";
+@source "../components";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scrollbar::-webkit-scrollbar { 
+  width: 4px; 
+}
+.custom-scrollbar::-webkit-scrollbar-thumb { 
+  background-color: #e7e5e4; 
+  border-radius: 10px; 
+}
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #333;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes imageFade { 
+  0% { opacity: 0; filter: blur(10px); } 
+  100% { opacity: 1; filter: blur(0); } 
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-image-fade { 
+  animation: imageFade 1.2s ease-out forwards; 
 }
