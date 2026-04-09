@@ -23,6 +23,7 @@
 * **ICONS:** `lucide-react`
 
 ---
+## live demo :- https://srtrive-frontend-swe-intern-calenda.vercel.app/
 
 ## **🚀 GETTING STARTED**
 
