@@ -33,12 +33,13 @@ Make sure you have Node.js installed on your machine.
 
 1.  **CLONE THE REPOSITORY:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    git clone [https://github.com/nowordsyours/striver-frontend-swe-intern-calendar-app.git]
+    (https://github.com/nowordsyours/striver-frontend-swe-intern-calendar-app.git)
     ```
 
 2.  **NAVIGATE TO THE DIRECTORY:**
     ```bash
-    cd YOUR_REPO_NAME
+    cd striver-frontend-swe-intern-calendar app
     ```
 
 3.  **INSTALL DEPENDENCIES:**
